@@ -71,5 +71,5 @@ func (a AmberRender) Render(w http.ResponseWriter) error {
 
 // WriteContentType sets the response's content-type
 func (a AmberRender) WriteContentType(w http.ResponseWriter) {
-	w.Header().Add("Content-Type", "text/html")
+	w.Header().Add("Content-Type", "text/html; charset=UTF-8")
 }
